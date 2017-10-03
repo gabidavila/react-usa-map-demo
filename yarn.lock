@@ -5220,8 +5220,8 @@ react-scripts@1.0.14:
     fsevents "1.1.2"
 
 react-usa-map@^1.0.15:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/react-usa-map/-/react-usa-map-1.0.16.tgz#2db10979171f737c615e04dee94f530b4f58489f"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-usa-map/-/react-usa-map-1.2.1.tgz#71ca4cc757eb43dfb42c40d4a0176134e9ca3200"
   dependencies:
     babel-runtime "^6.26.0"
 
