@@ -10,7 +10,8 @@ class App extends Component {
   statesFilling = () => {
     return {
       "NJ": {
-        fill: "navy"
+        fill: "navy",
+        clickHandler: () => alert("Custom callback for the NJ state")
       },
       "NY": {
         fill: "#CC0000"
@@ -21,7 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>react-usa-map</h1>
         <USAMap customize={this.statesFilling()} onClick={this.mapHandler} />
+        <p>More information: <a href="http://github.com/gabidavila/react-usa-map">GitHub</a></p>
       </div>
     );
   }
